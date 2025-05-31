@@ -6,7 +6,7 @@ const ca = "7jgMahwDFb3joVRfxhmeVXPzCqpFSxYnni3qdsKvpump";
 //////////////////////////////// END ////////////////////////////////////////
 
 const getPumpBondingCurve = async () => {
-  const URL = "https://pumpvial.com/api/pump-bonding-curve";
+  const URL = "https://api.pumpvial.com/pump-bonding-curve";
 
   try {
     const request = await axios.post(
